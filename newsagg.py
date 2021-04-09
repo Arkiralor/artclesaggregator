@@ -45,5 +45,5 @@ print(pageInfo)
 
 df = pd.DataFrame(pageInfo)
 x = str(datetime.date.today())
-fileName = 'Titleplacegolder' + '_' + x + '.csv'
+fileName = 'Titleplaceholder' + '_' + x + '.csv'
 df.to_csv(fileName)
